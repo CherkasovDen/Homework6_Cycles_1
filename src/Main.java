@@ -24,7 +24,7 @@ public class Main {
         }
         //Task5
         System.out.println("Задача 5");
-        for (int i = 1904; i < 2096; i = i + 4) {
+        for (int i = 1904; i <= 2096; i = i + 4) {
             System.out.println(i + " год является високосным");
         }
         //Task6
@@ -50,8 +50,8 @@ public class Main {
         int money1 = 29000;
         int total1 = 0;
         for (int i = 1; i <= 12; i++) {
-            total1 = total1 + total1 / 100;
             total1 = total1 + money1;
+            total1 = total1 + total1/100;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total1 + " рублей");
         }
         //Task10
